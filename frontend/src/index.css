@@ -1,0 +1,70 @@
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background: #CDCDCD;
+}
+
+button {
+    width: 100px; /*设置按钮宽度*/
+    height: 30px; /*设置按钮高度*/
+    color: white; /*字体颜色*/
+    background-color: cornflowerblue; /*按钮背景颜色*/
+    border-radius: 3px; /*让按钮变得圆滑一点*/
+    border-width: 0; /*消去按钮丑的边框*/
+    margin: 0;
+    outline: none; /*取消轮廓*/
+    font-family: KaiTi; /*字体设置为楷体*/
+    font-size: 17px; /*设置字体大小*/
+    text-align: center; /*字体居中*/
+    cursor: pointer; /*设置鼠标箭头手势*/
+
+}
+
+label {
+
+    color: black;
+    font-size: 18px;
+    padding: 5px 30px; /*设置内边距：上下10px，左右30px*/
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    color: #000000;
+    font-size: 13px;
+    font-family: "Times New Roman";
+}
+
+.items {
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    position: center;
+    margin-bottom: 0px;
+    margin: 10px;
+    padding: 0 45px;
+    border-radius: 3px;
+    border-left: 5px solid #629A9C;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+ul {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.App {
+    margin: 0 auto;
+    padding: 100px;
+    width: 600px;
+    border: 2px solid;
+    border-radius: 25px;
+}
